@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=The+Nautigal&display=swap");
+
+:root {
+  /* bg color nav*/
+  --clr-primary-1: #525e65;
+  /* primary background */
+  --clr-primary-2: #222733;
+  /* secondary background */
+  --clr-secondary-1: #33384a;
+  /* primary font color */
+  --clr-font-1: #dbe8d4;
+  /* secondary font background */
+  --clr-font-secondary: #73cca8;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // set font-size to 10px vs 16px
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 40.25em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 30.25em) {
+  html {
+    font-size: 41%;
+  }
+}
+@media (min-width: 112.5em) {
+  html {
+    font-size: 70%;
+  }
+}
+
+body {
+  font-family: Lato, "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  // background-color: var(--clr-primary-2);
+}

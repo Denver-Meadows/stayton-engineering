@@ -1,0 +1,25 @@
+// Navbar
+.nav {
+  background-color: tan;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  height: 7rem;
+  font-weight: 400;
+
+  &-logo {
+    margin-left: 7rem;
+  }
+
+  &-list {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 7rem;
+
+    &-link {
+      margin-right: 3rem;
+    }
+  }
+}
