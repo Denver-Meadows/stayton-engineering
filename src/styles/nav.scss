@@ -1,12 +1,13 @@
 // Navbar
 .nav {
-  background-color: tan;
+  background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 1;
   height: 7rem;
   font-weight: 400;
+  width: 100%;
 
   &-logo {
     margin-left: 7rem;
