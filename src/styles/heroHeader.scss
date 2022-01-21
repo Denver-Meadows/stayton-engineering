@@ -1,7 +1,8 @@
 .hero-header {
-  color: white;
+  color: var(--clr-primary-2);
   width: 75%;
   height: 55%;
+  animation: FadeDown 1s ease-in;
   // display: flex;
   // flex-direction: column;
 
@@ -42,6 +43,24 @@
   &:active {
     transform: translateY(0.5px);
     box-shadow: 0 1rem 2rem black;
+  }
+}
+
+// Animation
+@keyframes FadeDown {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  66% {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 1;
   }
 }
 

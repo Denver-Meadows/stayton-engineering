@@ -1,9 +1,8 @@
 // Navbar
 .nav {
   font-size: 2rem;
-  background-color: grey;
   opacity: 50;
-  color: white;
+  color: var(--clr-primary-2);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,6 +10,7 @@
   height: 7rem;
   font-weight: 400;
   width: 100%;
+  animation: FadeDown 1s ease-in;
 
   &-logo {
     margin-left: 7rem;
@@ -24,6 +24,44 @@
 
     &-link {
       margin-right: 3rem;
+      display: inline-block; // Needed so padding will and shifting right animation will work
+      padding: 1rem 2rem;
+      // text-transform: uppercase;
+      text-decoration: none;
+      background-image: linear-gradient(
+        120deg,
+        transparent 0%,
+        transparent 50%,
+        var(--clr-primary-2) 50%
+      );
+      background-size: 235%; // Needed to make the below animation work.  Shifting the bg color for the animation.
+      transition: all 0.5s;
+
+      &:hover,
+      &:active {
+        border-radius: 2px;
+        background-position: 100%;
+        color: var(--clr-secondary-1);
+        transform: translateX(1rem);
+      }
     }
+  }
+}
+
+// Animation
+@keyframes FadeDown {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  66% {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 1;
   }
 }
