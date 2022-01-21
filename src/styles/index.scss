@@ -6,9 +6,9 @@
   /* primary background */
   --clr-primary-2: white;
   /* secondary background */
-  --clr-secondary-1: blue;
+  --clr-secondary-1: grey;
   /* primary font color */
-  --clr-font-1: #dbe8d4;
+  --clr-secondary-2: lightgrey;
   /* secondary font background */
   --clr-font-secondary: #73cca8;
 }
@@ -55,4 +55,13 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   // background-color: var(--clr-primary-2);
+}
+
+// Utilities
+.header-line {
+  border-bottom: 2px solid black;
+  width: 28rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  opacity: 0.5;
 }

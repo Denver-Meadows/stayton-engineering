@@ -1,6 +1,7 @@
 // Navbar
 .nav {
   font-size: 2rem;
+  background-color: rgb(22, 22, 90);
   opacity: 50;
   color: var(--clr-primary-2);
   display: flex;
@@ -9,8 +10,11 @@
   z-index: 3;
   height: 7rem;
   font-weight: 400;
+  position: fixed;
+  top: 0;
   width: 100%;
-  animation: FadeDown 1s ease-in;
+
+  animation: FadeIn 1.5s ease-in;
 
   &-logo {
     margin-left: 7rem;
@@ -60,6 +64,15 @@
   66% {
     opacity: 0;
     transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
   }
   100% {
     opacity: 1;

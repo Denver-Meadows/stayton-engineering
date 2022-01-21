@@ -2,7 +2,8 @@
   color: var(--clr-primary-2);
   width: 75%;
   height: 55%;
-  animation: FadeDown 1s ease-in;
+  // animation: FadeDown 1s ease-in;
+  animation: FadeIn 1.5s ease-in;
   // display: flex;
   // flex-direction: column;
 
@@ -58,6 +59,15 @@
   66% {
     opacity: 0;
     transform: translateY(-2rem);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
   }
   100% {
     opacity: 1;
