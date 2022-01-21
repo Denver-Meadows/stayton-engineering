@@ -4,7 +4,7 @@ import "../styles/nav.scss";
 const Navbar = () => {
   return (
     <nav className="nav">
-      <div className="nav-logo">Stayton Engineering</div>
+      <div className="nav-logo">Logo</div>
       <ul className="nav-list">
         <li className="nav-list-link">Services</li>
         <li className="nav-list-link">Experience</li>
