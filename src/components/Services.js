@@ -21,7 +21,14 @@ const Services = () => {
           }}
         >
           <h2>PLC Programming</h2>
-          <h2>Panel Builds</h2>
+        </div>
+        <div
+          className={`services-list-item`}
+          style={{
+            backgroundImage: `url(${hmi})`,
+          }}
+        >
+          <h2>HMI Development</h2>
         </div>
         <div
           className={`services-list-item`}
@@ -29,7 +36,22 @@ const Services = () => {
             backgroundImage: `url(${eng})`,
           }}
         >
-          <h2>HMI Development</h2>
+          <h2>Engineering Design</h2>
+        </div>
+        <div
+          className={`services-list-item`}
+          style={{
+            backgroundImage: `url(${panelBuild})`,
+          }}
+        >
+          <h2>Panel Builds</h2>
+        </div>
+        <div
+          className={`services-list-item`}
+          style={{
+            backgroundImage: `url(${comDebug})`,
+          }}
+        >
           <h2>Commissioning & Debugging</h2>
         </div>
         <div
@@ -38,35 +60,18 @@ const Services = () => {
             backgroundImage: `url(${onSite})`,
           }}
         >
-          <h2>Engineering Design</h2>
           <h2>On-Site Startups</h2>
         </div>
-        {/* <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(${panelBuild})`,
-          }}
-        >
-          <h2>Panel Builds</h2>
-        </div> */}
-        {/* <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(${panelBuild})`,
-          }}
-        >
-          <h2>Commissioning & Debugging</h2>
-        </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(${panelBuild})`,
-          }}
-        >
-          <h2>On-Site Startups</h2>
-        </div> */}
       </div>
-      {/* <div className="services-grid-container">
+    </section>
+  );
+};
+
+export default Services;
+
+// old grid
+{
+  /* <div className="services-grid-container">
         <div className="services-grid">
           <div className="services-grid-1">
             <img src={comDebug} alt="" />
@@ -93,9 +98,5 @@ const Services = () => {
             <p>On-Site Startups</p>
           </div>
         </div>
-      </div> */}
-    </section>
-  );
-};
-
-export default Services;
+      </div> */
+}
