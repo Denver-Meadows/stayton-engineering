@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/industries.scss";
+import Fade from "react-reveal/Fade";
 
 const Industries = () => {
   return (
@@ -9,22 +10,34 @@ const Industries = () => {
       </div>
       <div className="industries-list">
         <div className="industries-list-1">
-          <p>Robotics</p>
-          <p>Automotive</p>
-          <p>Food/Beverage</p>
-          <p>Pharmaceutical</p>
+          <Fade left>
+            <p>Robotics</p>
+            <p>Automotive</p>
+          </Fade>
+          <Fade right>
+            <p>Food/Beverage</p>
+            <p>Pharmaceutical</p>
+          </Fade>
         </div>
         <div className="industries-list-2">
-          <p>Printing</p>
-          <p>Paper Mills</p>
-          <p>Palletizers</p>
-          <p>Vision/Inspection</p>
+          <Fade left>
+            <p>Printing</p>
+            <p>Paper Mills</p>
+          </Fade>
+          <Fade right>
+            <p>Palletizers</p>
+            <p>Vision/Inspection</p>
+          </Fade>
         </div>
         <div className="industries-list-3">
-          <p>Breweries</p>
-          <p>Corrugated</p>
-          <p>Conveyor Systems</p>
-          <p>Industrial Part Washers</p>
+          <Fade left>
+            <p>Breweries</p>
+            <p>Corrugated</p>
+          </Fade>
+          <Fade right>
+            <p>Conveyor Systems</p>
+            <p>Industrial Part Washers</p>
+          </Fade>
         </div>
       </div>
     </section>

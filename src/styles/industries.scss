@@ -12,7 +12,6 @@
     margin: 2rem;
     width: 22rem;
     color: rgb(22, 22, 85);
-    // text-shadow: 1px 1px grey;
   }
 
   &-header {
@@ -25,21 +24,21 @@
 
   &-list-1 {
     display: flex;
-    // align-items: center;
+    align-items: center;
     justify-content: space-around;
-    margin-bottom: 10rem;
+    margin-bottom: 13rem;
   }
 
   &-list-2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 10rem;
+    margin-bottom: 13rem;
   }
   &-list-3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 10rem;
+    margin-bottom: 13rem;
   }
 }
