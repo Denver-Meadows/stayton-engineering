@@ -1,0 +1,35 @@
+.experience {
+  // margin: 5rem 0;
+  // padding: 5rem;
+  margin: 10rem 10rem;
+
+  &-header {
+    color: var(--clr-secondary-1);
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  &-list-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+
+    img {
+      width: 20rem;
+    }
+  }
+
+  &-list-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+
+    img {
+      width: 20rem;
+    }
+  }
+}
