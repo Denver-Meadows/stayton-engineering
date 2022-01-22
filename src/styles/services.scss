@@ -1,7 +1,7 @@
 .services {
-  height: 100vh;
   // margin: 5rem 0;
   // padding: 5rem;
+  margin-bottom: 80rem;
 
   &-header {
     color: var(--clr-secondary-1);
@@ -13,7 +13,7 @@
 
   &-list {
     &-item {
-      height: 30rem;
+      height: 50rem;
       background-color: grey;
       // margin-top: -7rem;
       z-index: 1;
@@ -24,10 +24,12 @@
       background-repeat: no-repeat;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
       background-attachment: fixed;
       color: var(--clr-primary-2);
+      text-shadow: 2px 2px black;
       font-size: 2rem;
+      margin-bottom: 0.2rem;
     }
   }
 

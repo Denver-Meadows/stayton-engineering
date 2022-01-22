@@ -2,6 +2,10 @@ import React from "react";
 import "../styles/services.scss";
 import plc from "../imgs/ruben.jpg";
 import eng from "../imgs/eng.jpg";
+import comDebug from "../imgs/comDebug.jpg";
+import onSite from "../imgs/onSite.jpg";
+import panelBuild from "../imgs/panelBuild.jpg";
+import hmi from "../imgs/hmi.jpg";
 
 const Services = () => {
   return (
@@ -13,39 +17,42 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${eng})`,
+            backgroundImage: `url(${plc})`,
           }}
         >
           <h2>PLC Programming</h2>
-        </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(${plc})`,
-          }}
-        >
-          <h2>HMI Development</h2>
-        </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(${plc})`,
-          }}
-        >
-          <h2>Engineering Design</h2>
-        </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(${plc})`,
-          }}
-        >
           <h2>Panel Builds</h2>
         </div>
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${plc})`,
+            backgroundImage: `url(${eng})`,
+          }}
+        >
+          <h2>HMI Development</h2>
+          <h2>Commissioning & Debugging</h2>
+        </div>
+        <div
+          className={`services-list-item`}
+          style={{
+            backgroundImage: `url(${onSite})`,
+          }}
+        >
+          <h2>Engineering Design</h2>
+          <h2>On-Site Startups</h2>
+        </div>
+        {/* <div
+          className={`services-list-item`}
+          style={{
+            backgroundImage: `url(${panelBuild})`,
+          }}
+        >
+          <h2>Panel Builds</h2>
+        </div> */}
+        {/* <div
+          className={`services-list-item`}
+          style={{
+            backgroundImage: `url(${panelBuild})`,
           }}
         >
           <h2>Commissioning & Debugging</h2>
@@ -53,11 +60,11 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${plc})`,
+            backgroundImage: `url(${panelBuild})`,
           }}
         >
           <h2>On-Site Startups</h2>
-        </div>
+        </div> */}
       </div>
       {/* <div className="services-grid-container">
         <div className="services-grid">
