@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/services.scss";
-import comDebug from "../imgs/comDebug.jpeg";
+import comDebug from "../imgs/ruben.jpg";
 import plc from "../imgs/plc.jpeg";
 import engDesign from "../imgs/engDesign.jpeg";
 import hmi from "../imgs/hmi.jpeg";
@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <section className="services">
       <div className="services-header">
-        <h1>Services We Provide</h1>
+        <h1>Our Services</h1>
       </div>
       <div className="services-grid-container">
         <div className="services-grid">
