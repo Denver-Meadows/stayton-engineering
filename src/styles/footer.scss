@@ -1,0 +1,44 @@
+.footer {
+  background-color: var(--clr-primary-1);
+  color: var(--clr-primary-2);
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-details {
+    padding-top: 5rem;
+    text-align: center;
+
+    &-address {
+      margin-bottom: 2rem;
+    }
+    &-phone {
+      margin-bottom: 1rem;
+    }
+
+    a,
+    a:visited {
+      color: var(--clr-primary-2);
+    }
+
+    h5 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  margin: 0 3rem;
+  font-size: 1.3rem;
+
+  a,
+  a:visited {
+    color: var(--clr-primary-2);
+  }
+}
