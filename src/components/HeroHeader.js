@@ -1,7 +1,20 @@
 import React from "react";
 import "../styles/heroHeader.scss";
+import { polyfill } from "seamless-scroll-polyfill";
 
 const HeroHeader = () => {
+  polyfill();
+
+  const handleClick = () => {
+    const section = document.querySelector(".services");
+    const poisition = section.getBoundingClientRect();
+    window.scrollTo({
+      left: poisition.left,
+      top: poisition.top + window.scrollY - 100,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="hero-header">
       <div className="hero-header-welcome">
@@ -17,7 +30,9 @@ const HeroHeader = () => {
         </p>
       </div>
       <div className="hero-header-btn">
-        <button className="learn-more">Learn More</button>
+        <button className="learn-more" onClick={() => handleClick()}>
+          Learn More
+        </button>
       </div>
     </div>
   );
