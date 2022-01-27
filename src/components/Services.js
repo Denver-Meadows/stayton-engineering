@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/services.scss";
 import plc from "../imgs/ruben.jpg";
 import eng from "../imgs/eng.jpg";
@@ -6,18 +6,30 @@ import comDebug from "../imgs/comDebug.jpg";
 import onSite from "../imgs/onSite.jpg";
 import panelBuild from "../imgs/panelBuild.jpg";
 import hmi from "../imgs/hmi.jpg";
+import { useParallax } from "react-scroll-parallax";
 
 const Services = () => {
+  // const [offsetY, setOffsetY] = useState(0);
+  // const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
+
   return (
     <section className="services">
       <div className="services-header">
         <h1>Our Services</h1>
       </div>
+
       <div className="services-list">
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${plc})`,
+            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643154327/staytonEngineering/ruben_ksq30n.jpg)`,
           }}
         >
           <h2>PLC Programming</h2>
@@ -25,7 +37,7 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${hmi})`,
+            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067747/staytonEngineering/hmi_efyx9j.jpg)`,
           }}
         >
           <h2>HMI Development</h2>
@@ -33,7 +45,7 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${eng})`,
+            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067738/staytonEngineering/eng_p58jyl.jpg)`,
           }}
         >
           <h2>Engineering Design</h2>
@@ -41,7 +53,7 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${panelBuild})`,
+            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068046/staytonEngineering/panelBuild_pxz5ka.jpg)`,
           }}
         >
           <h2>Panel Builds</h2>
@@ -49,7 +61,7 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${comDebug})`,
+            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067955/staytonEngineering/comDebug_ccud4v.jpg)`,
           }}
         >
           <h2>Commissioning & Debugging</h2>
@@ -57,7 +69,7 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(${onSite})`,
+            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068008/staytonEngineering/onSite_vov5er.jpg)`,
           }}
         >
           <h2>On-Site Startups</h2>
