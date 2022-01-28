@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/experience.scss";
+import Fade from "react-reveal/Fade";
+
 import allen from "../imgs/logos/allen-bradley.jpeg";
 import bosch from "../imgs/logos/bosch.png";
 import ge from "../imgs/logos/ge.png";
@@ -16,18 +18,41 @@ const Experience = () => {
         <h1>Experience</h1>
       </div>
       <div className="experience-list">
-        <div className="experience-list-1">
-          <img src={ge} alt="GE Logo" />
-          <img src={bosch} alt="GE Logo" />
-          <img src={proface} alt="GE Logo" />
-          <img src={redlion} alt="GE Logo" />
+        <div className="img-container">
+          <Fade bottom>
+            <img src={ge} alt="GE Logo" />
+          </Fade>
         </div>
-        <div className="experience-list-2">
-          <img src={allen} alt="GE Logo" />
-          <img src={mitsubishi} alt="GE Logo" />
-          <img src={wonderware} alt="GE Logo" />
-          <img src={siemens} alt="GE Logo" />
+        <div className="img-container">
+          <Fade bottom>
+            <img src={bosch} alt="Bosch Logo" />
+          </Fade>
         </div>
+        <div className="img-container">
+          <img src={proface} alt="Proface Logo" />
+        </div>
+        <div className="img-container">
+          <img src={redlion} alt="RedLion Logo" />
+        </div>
+        <div className="img-container">
+          <img src={allen} alt="Allen Logo" />
+        </div>
+        <div className="img-container">
+          <img src={mitsubishi} alt="Mitsubishi Logo" />
+        </div>
+        <div className="img-container">
+          <img src={wonderware} alt="Wonderware Logo" />
+        </div>
+        <div className="img-container">
+          <img src={siemens} alt="Siemens Logo" />
+        </div>
+
+        {/* <div className="experience-list-2">
+          <img src={allen} alt="Allen Logo" />
+          <img src={mitsubishi} alt="Mitsubishi Logo" />
+          <img src={wonderware} alt="Wonderware Logo" />
+          <img src={siemens} alt="Siemens Logo" />
+        </div> */}
       </div>
     </section>
   );

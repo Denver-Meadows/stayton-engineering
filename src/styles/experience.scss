@@ -11,25 +11,23 @@
     font-size: 3rem;
   }
 
-  &-list-1 {
+  &-list {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 5rem;
+    flex-wrap: wrap;
 
+    // will need to update this on smaller screens
     img {
       width: 20rem;
     }
   }
+}
 
-  &-list-2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 5rem;
-
-    img {
-      width: 20rem;
-    }
-  }
+.img-container {
+  display: flex;
+  justify-content: center;
+  width: 30rem;
+  margin: 5rem 0;
 }
