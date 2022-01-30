@@ -1,11 +1,14 @@
 import React from "react";
 import "../styles/contact.scss";
+import Flip from "react-reveal/Flip";
 
 const Contact = () => {
   return (
     <section className="contact">
       <div className="contact-header">
-        <h1>Contact Us</h1>
+        <Flip bottom>
+          <h1>Contact Us</h1>
+        </Flip>
       </div>
       <div className="contact-details">
         <h3>Questions & Estimates</h3>
