@@ -6,6 +6,7 @@ import comDebug from "../imgs/comDebug.jpg";
 import onSite from "../imgs/onSite.jpg";
 import panelBuild from "../imgs/panelBuild.jpg";
 import hmi from "../imgs/hmi.jpg";
+import Flip from "react-reveal/Flip";
 import { useParallax } from "react-scroll-parallax";
 
 const Services = () => {
@@ -22,7 +23,9 @@ const Services = () => {
   return (
     <section className="services">
       <div className="services-header">
-        <h1>Our Services</h1>
+        <Flip bottom>
+          <h1>Our Services</h1>
+        </Flip>
       </div>
 
       <div className="services-list">
@@ -61,7 +64,7 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067955/staytonEngineering/comDebug_ccud4v.jpg)`,
+            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643243135/staytonEngineering/comDebug_wxxmk8.jpg)`,
           }}
         >
           <h2>Commissioning & Debugging</h2>

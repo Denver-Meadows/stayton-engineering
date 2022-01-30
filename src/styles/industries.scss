@@ -35,10 +35,44 @@
     justify-content: space-around;
     margin-bottom: 13rem;
   }
+
   &-list-3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-bottom: 13rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .industries {
+    p {
+      font-size: 4rem;
+      width: 30rem;
+      text-align: center;
+    }
+    &-list-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 2rem;
+    }
+
+    &-list-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 2rem;
+    }
+
+    &-list-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: 13rem;
+    }
   }
 }
