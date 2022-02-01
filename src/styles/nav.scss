@@ -21,7 +21,7 @@
   }
 
   &-toggle-btn {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -94,5 +94,15 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-toggle-btn {
+    display: flex;
+  }
+
+  .nav-list {
+    display: none;
   }
 }
