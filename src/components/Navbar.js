@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/nav.scss";
 import { polyfill } from "seamless-scroll-polyfill";
 
 const Navbar = () => {
+  const [isActive, setActive] = useState(false);
   polyfill();
 
   const handleClick = (id) => {
@@ -13,6 +14,10 @@ const Navbar = () => {
       top: poisition.top + window.scrollY - 100,
       behavior: "smooth",
     });
+  };
+
+  const handleToggle = () => {
+    setActive(!isActive);
   };
 
   return (
@@ -48,11 +53,23 @@ const Navbar = () => {
           Contact Us
         </li>
       </ul>
-      <div className="nav-toggle-btn">
-        <span className="hamburger"></span>
-        <span className="hamburger"></span>
-        <span className="hamburger"></span>
+      <div
+        id="nav-icon2"
+        className={isActive ? "open" : ""}
+        onClick={() => handleToggle()}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+      {/* <div className="nav-toggle-btn">
+        <span className="hamburger"></span>
+        <span className="hamburger"></span>
+        <span className="hamburger"></span>
+      </div> */}
     </nav>
   );
 };
