@@ -48,11 +48,11 @@ const Navbar = () => {
           Contact Us
         </li>
       </ul>
-      {/* <div className="nav-toggle-btn">
+      <div className="nav-toggle-btn">
         <span className="hamburger"></span>
         <span className="hamburger"></span>
         <span className="hamburger"></span>
-      </div> */}
+      </div>
     </nav>
   );
 };

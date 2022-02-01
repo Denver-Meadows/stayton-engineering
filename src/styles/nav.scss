@@ -20,6 +20,17 @@
     margin-left: 7rem;
   }
 
+  &-toggle-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 35px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 5rem;
+  }
+
   &-list {
     display: flex;
     list-style: none;
@@ -50,6 +61,13 @@
       }
     }
   }
+}
+
+.hamburger {
+  height: 4px;
+  width: 90%;
+  background-color: var(--clr-primary-2);
+  border-radius: 10px;
 }
 
 // Animation
