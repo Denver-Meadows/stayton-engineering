@@ -6,11 +6,13 @@ import Industries from "./components/Industries";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Tagline from "./components/Tagline";
+import SideNav from "./components/SideNav";
 
 function App() {
   return (
     <div>
       <Navbar />
+      <SideNav />
       <Hero />
       <Tagline />
       <Services />

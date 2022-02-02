@@ -1,5 +1,5 @@
 import React, { useState, useContext, useRef } from "react";
-import "../styles/nav.scss";
+import "../styles/sideNav.scss";
 import { polyfill } from "seamless-scroll-polyfill";
 import { AppContext } from "../context";
 
@@ -24,38 +24,44 @@ const SideNav = () => {
   // };
 
   return (
-    <nav className="nav">
-      <div className="nav-logo">Logo</div>
-      <ul className="nav-list">
-        <li
-          className="nav-list-link"
-          id="services"
-          onClick={(e) => handleClick(e.target.id)}
-        >
-          Services
-        </li>
-        <li
-          className="nav-list-link"
-          id="experience"
-          onClick={(e) => handleClick(e.target.id)}
-        >
-          Experience
-        </li>
-        <li
-          className="nav-list-link"
-          id="industries"
-          onClick={(e) => handleClick(e.target.id)}
-        >
-          Industries
-        </li>
-        <li
-          className="nav-list-link"
-          id="contact"
-          onClick={(e) => handleClick(e.target.id)}
-        >
-          Contact Us
-        </li>
-      </ul>
+    <aside
+      className={`${
+        isSideNavOpen ? "side-nav-modal show-side-nav-modal" : "side-nav-modal"
+      }`}
+      ref={sideNav}
+    >
+      <div className="side-nav">
+        <ul className="side-nav-list">
+          <li
+            className="side-nav-list-link"
+            id="services"
+            onClick={(e) => handleClick(e.target.id)}
+          >
+            Services
+          </li>
+          <li
+            className="side-nav-list-link"
+            id="experience"
+            onClick={(e) => handleClick(e.target.id)}
+          >
+            Experience
+          </li>
+          <li
+            className="side-nav-list-link"
+            id="industries"
+            onClick={(e) => handleClick(e.target.id)}
+          >
+            Industries
+          </li>
+          <li
+            className="side-nav-list-link"
+            id="contact"
+            onClick={(e) => handleClick(e.target.id)}
+          >
+            Contact Us
+          </li>
+        </ul>
+      </div>
       {/* <div
         id="nav-toggle-btn"
         className={isActive ? "open" : ""}
@@ -73,7 +79,7 @@ const SideNav = () => {
         <span className="hamburger"></span>
         <span className="hamburger"></span>
       </div> */}
-    </nav>
+    </aside>
   );
 };
 
