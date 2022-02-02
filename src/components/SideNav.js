@@ -1,10 +1,12 @@
-import React, { useContext } from "react";
+import React, { useState, useContext, useRef } from "react";
 import "../styles/nav.scss";
 import { polyfill } from "seamless-scroll-polyfill";
 import { AppContext } from "../context";
 
-const Navbar = () => {
-  const { openSideNav, isSideNavOpen, closeSideNav } = useContext(AppContext);
+const SideNav = () => {
+  const sideNav = useRef(null);
+  const [isActive, setActive] = useState(false);
+  const { isSideNavOpen, closeSideNav } = useContext(AppContext);
   polyfill();
 
   const handleClick = (id) => {
@@ -17,10 +19,9 @@ const Navbar = () => {
     });
   };
 
-  const handleToggle = () => {
-    if (isSideNavOpen) closeSideNav();
-    if (!isSideNavOpen) openSideNav();
-  };
+  // const handleToggle = () => {
+  //   setActive(!isActive);
+  // };
 
   return (
     <nav className="nav">
@@ -55,9 +56,9 @@ const Navbar = () => {
           Contact Us
         </li>
       </ul>
-      <div
+      {/* <div
         id="nav-toggle-btn"
-        className={isSideNavOpen ? "open" : ""}
+        className={isActive ? "open" : ""}
         onClick={() => handleToggle()}
       >
         <span></span>
@@ -66,7 +67,7 @@ const Navbar = () => {
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </div> */}
       {/* <div className="nav-toggle-btn">
         <span className="hamburger"></span>
         <span className="hamburger"></span>
@@ -76,4 +77,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default SideNav;
