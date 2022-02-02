@@ -17,6 +17,8 @@ const SideNav = () => {
       top: position.top + window.scrollY - 100,
       behavior: "smooth",
     });
+
+    closeSideNav();
   };
 
   // const handleToggle = () => {
