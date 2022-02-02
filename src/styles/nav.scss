@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montez&family=The+Nautigal&display=swap");
 // Navbar
 .nav {
   font-size: 2rem;
@@ -17,7 +18,15 @@
   animation: FadeIn 1.5s ease-in;
 
   &-logo {
+    font-family: Montez, "Open Sans", sans-serif;
     margin-left: 7rem;
+    font-size: 4rem;
+    cursor: pointer;
+
+    &:hover,
+    &:active {
+      color: var(--clr-secondary-1);
+    }
   }
 
   // &-toggle-btn {
@@ -240,7 +249,7 @@
 }
 
 // Media queries
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   #nav-toggle-btn {
     display: block;
   }

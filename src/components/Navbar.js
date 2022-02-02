@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "../styles/nav.scss";
 import { polyfill } from "seamless-scroll-polyfill";
 import { AppContext } from "../context";
+// import logo from "../imgs/SElogo.jpg";
 
 const Navbar = () => {
   const { openSideNav, isSideNavOpen, closeSideNav } = useContext(AppContext);
@@ -24,7 +25,13 @@ const Navbar = () => {
 
   return (
     <nav className="nav">
-      <div className="nav-logo">Logo</div>
+      <div
+        className="nav-logo"
+        id="hero"
+        onClick={(e) => handleClick(e.target.id)}
+      >
+        Stayton Engineering
+      </div>
       <ul className="nav-list">
         <li
           className="nav-list-link"

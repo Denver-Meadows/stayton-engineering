@@ -1,11 +1,10 @@
-import React, { useState, useContext, useRef } from "react";
+import React, { useContext, useRef } from "react";
 import "../styles/sideNav.scss";
 import { polyfill } from "seamless-scroll-polyfill";
 import { AppContext } from "../context";
 
 const SideNav = () => {
   const sideNav = useRef(null);
-  const [isActive, setActive] = useState(false);
   const { isSideNavOpen, closeSideNav } = useContext(AppContext);
   polyfill();
 

@@ -32,7 +32,7 @@ const Services = () => {
         <div
           className={`services-list-item`}
           style={{
-            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643154327/staytonEngineering/ruben_ksq30n.jpg)`,
+            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/c_scale,w_1582/v1643154327/staytonEngineering/ruben_ksq30n.jpg)`,
           }}
         >
           <h2>PLC Programming</h2>
