@@ -6,7 +6,15 @@
   visibility: hidden;
   z-index: -1;
   transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
   transform: translate(100%);
+  -moz-transform: translate(100%);
+  -webkit-transform: translate(100%);
+  -ms-transform: translate(100%);
+  -o-transform: translate(100%);
   backdrop-filter: blur(3px);
 }
 
@@ -49,6 +57,10 @@
       );
       background-size: 235%; // Needed to make the below animation work.  Shifting the bg color for the animation.
       transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+      -o-transition: all 0.5s;
 
       &:hover,
       &:active {
@@ -56,6 +68,10 @@
         background-position: 100%;
         color: var(--clr-secondary-1);
         transform: translateX(1rem);
+        -moz-transform: translateX(1rem);
+        -ms-transform: translateX(1rem);
+        -webkit-transform: translateX(1rem);
+        -o-transform: translateX(1rem);
       }
     }
   }
@@ -65,5 +81,13 @@
   visibility: visible;
   z-index: 10;
   transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
   transform: translate(0);
+  -moz-transform: translate(0);
+  -webkit-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
 }

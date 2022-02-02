@@ -1,12 +1,14 @@
 .tagline {
-  margin: 15rem 0;
+  margin: 20rem 0;
   font-size: 3rem;
   text-align: center;
   color: var(--clr-primary-1);
   background-color: rgb(238, 238, 238);
-  padding: 5rem;
+  padding: 7rem;
 
   h1 {
-    margin: 4rem 0;
+    margin: 7rem 0;
   }
 }
+
+// increase padding on small screens

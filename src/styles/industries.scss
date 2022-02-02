@@ -8,10 +8,10 @@
 
   p {
     font-size: 3rem;
-    text-align: start;
+    text-align: center;
     margin: 2rem;
     width: 22rem;
-    color: rgb(22, 22, 85);
+    color: var(--clr-primary-1);
   }
 
   &-header {
