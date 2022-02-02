@@ -8,10 +8,10 @@ const Navbar = () => {
 
   const handleClick = (id) => {
     const section = document.querySelector(`.${id}`);
-    const poisition = section.getBoundingClientRect();
+    const position = section.getBoundingClientRect();
     window.scrollTo({
-      left: poisition.left,
-      top: poisition.top + window.scrollY - 100,
+      left: position.left,
+      top: position.top + window.scrollY - 100,
       behavior: "smooth",
     });
   };
@@ -54,7 +54,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div
-        id="nav-icon2"
+        id="nav-toggle-btn"
         className={isActive ? "open" : ""}
         onClick={() => handleToggle()}
       >
