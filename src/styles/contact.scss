@@ -1,6 +1,4 @@
 .contact {
-  // margin: 5rem 0;
-  // padding: 5rem;
   margin: 10rem 10rem;
 
   &-header {
@@ -9,6 +7,7 @@
     margin-bottom: 10rem;
     text-align: center;
     font-size: 3rem;
+    animation: FadeIn 1.5s ease-in;
   }
 
   &-details {
@@ -41,9 +40,7 @@
 
     &-email {
       width: 10rem;
-      // border: none;
       border-radius: 3px;
-      // margin-top: 7rem;
       padding: 1rem;
       font-size: 1.5rem;
       text-transform: uppercase;
@@ -58,6 +55,34 @@
         transform: translateY(0.5px);
         box-shadow: 0 1rem 1rem var(--clr-primary-1);
       }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .contact {
+    &-header {
+      font-size: 4rem;
+    }
+
+    &-details {
+      &-p {
+        font-size: 2.5rem;
+      }
+      &-email {
+        width: 10rem;
+        padding: 1.5rem 2.5rem;
+        font-size: 2.2rem;
+      }
+    }
+    h3 {
+      font-size: 3.5rem;
+    }
+    h4 {
+      font-size: 3rem;
+    }
+    a {
+      font-size: 2.5rem;
     }
   }
 }

@@ -1,15 +1,12 @@
 import React from "react";
 import "../styles/industries.scss";
 import Fade from "react-reveal/Fade";
-import Flip from "react-reveal/Flip";
 
 const Industries = () => {
   return (
     <section className="industries">
       <div className="industries-header">
-        <Flip bottom>
-          <h1>Industries</h1>
-        </Flip>
+        <h1>Industries</h1>
       </div>
       <div className="industries-list">
         <div className="industries-list-1">

@@ -42,3 +42,29 @@
     color: var(--clr-primary-2);
   }
 }
+
+@media (max-width: 500px) {
+  .footer {
+    &-details {
+      padding-top: 5rem;
+
+      &-address {
+        margin-bottom: 2rem;
+      }
+      &-phone {
+        margin-bottom: 1rem;
+      }
+
+      h5 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+  .footer-bottom {
+    font-size: 1rem;
+  }
+}

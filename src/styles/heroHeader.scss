@@ -101,6 +101,9 @@
 
 @media (max-width: 500px) {
   .hero-header {
+    width: 90%;
+    height: 50%;
+
     h2 {
       font-size: 5rem;
       margin-bottom: 2rem;
@@ -114,7 +117,7 @@
     }
     p {
       font-size: 2.4rem;
-      width: 90%;
+      width: 100%;
       margin-bottom: 5rem;
     }
   }

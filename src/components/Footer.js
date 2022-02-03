@@ -25,7 +25,7 @@ const Footer = () => {
           </p>
           <p className="footer-bottom-creator">
             CREATED BY{" "}
-            <a href="https:/denvermeadows.co" target="_blank">
+            <a href="https://denvermeadows.co" target="_blank">
               DENVER MEADOWS
             </a>
           </p>

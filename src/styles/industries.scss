@@ -20,6 +20,7 @@
     margin-bottom: 10rem;
     text-align: center;
     font-size: 3rem;
+    animation: FadeIn 1.5s ease-in;
   }
 
   &-list-1 {
@@ -50,6 +51,9 @@
       font-size: 4rem;
       width: 30rem;
       text-align: center;
+    }
+    &-header {
+      font-size: 4rem;
     }
     &-list-1 {
       display: flex;

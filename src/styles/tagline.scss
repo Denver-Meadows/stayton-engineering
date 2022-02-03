@@ -11,4 +11,8 @@
   }
 }
 
-// increase padding on small screens
+@media (max-width: 500px) {
+  .tagline {
+    padding: 7rem 4rem;
+  }
+}

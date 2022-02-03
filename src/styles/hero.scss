@@ -1,7 +1,6 @@
 // Hero
 .hero {
   height: 85vh;
-  // margin-top: -7rem;
   z-index: 1;
   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643921044/staytonEngineering/heroBg1920_fgymvw.jpg);
   background-size: cover;
@@ -17,7 +16,7 @@
 
 @media (max-width: 1100px) {
   .hero {
-    background-position: bottom;
+    background-attachment: scroll;
     background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643921044/staytonEngineering/heroBg1000_oirwcu.jpg);
   }
 }
