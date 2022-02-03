@@ -30,51 +30,27 @@ const Services = () => {
 
       <div className="services-list">
         <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/c_scale,w_1582/v1643154327/staytonEngineering/ruben_ksq30n.jpg)`,
-          }}
+          className="services-list-item services-list-item-1"
+          // className={`services-list-item`}
+          // style={{
+          //   backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/c_scale,w_1582/v1643154327/staytonEngineering/ruben_ksq30n.jpg)`,
+          // }}
         >
           <h2>PLC Programming</h2>
         </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067747/staytonEngineering/hmi_efyx9j.jpg)`,
-          }}
-        >
+        <div className="services-list-item services-list-item-2">
           <h2>HMI Development</h2>
         </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067738/staytonEngineering/eng_p58jyl.jpg)`,
-          }}
-        >
+        <div className="services-list-item services-list-item-3">
           <h2>Engineering Design</h2>
         </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068046/staytonEngineering/panelBuild_pxz5ka.jpg)`,
-          }}
-        >
+        <div className="services-list-item services-list-item-4">
           <h2>Panel Builds</h2>
         </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643243135/staytonEngineering/comDebug_wxxmk8.jpg)`,
-          }}
-        >
+        <div className="services-list-item services-list-item-5">
           <h2>Commissioning & Debugging</h2>
         </div>
-        <div
-          className={`services-list-item`}
-          style={{
-            backgroundImage: `url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068008/staytonEngineering/onSite_vov5er.jpg)`,
-          }}
-        >
+        <div className="services-list-item services-list-item-6">
           <h2>On-Site Startups</h2>
         </div>
       </div>

@@ -15,12 +15,9 @@
   &-list {
     &-item {
       height: 45rem;
-      // background-color: grey;
-      // margin-top: -7rem;
+      background-color: var(--clr-primary-1);
       z-index: 1;
-      // background-image: url(../imgs/viktor-kiryanov-lAcYPEiau0U-unsplash.jpg);
       background-size: cover;
-      // background-color: #cccccc;
       background-position: center;
       background-repeat: no-repeat;
       display: flex;
@@ -31,6 +28,25 @@
       text-shadow: 2px 2px black;
       font-size: 2.3rem;
       margin-bottom: 0.2rem;
+
+      &-1 {
+        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643915039/staytonEngineering/plc1920_cbqbyy.jpg);
+      }
+      &-2 {
+        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643912803/staytonEngineering/hmi1920_cnpryf.jpg);
+      }
+      &-3 {
+        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643914170/staytonEngineering/design1920_hm99cf.jpg);
+      }
+      &-4 {
+        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643915809/staytonEngineering/panel1920_yszagn.jpg);
+      }
+      &-5 {
+        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643915232/staytonEngineering/debug1920_egfx9i.jpg);
+      }
+      &-6 {
+        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643912797/staytonEngineering/onSite1920_hlnjwd.jpg);
+      }
 
       h2 {
         margin-top: 2rem;
@@ -110,3 +126,92 @@
 }
 
 // img height 20 rem at 1440 px
+
+// @media (max-width: 1440px) {
+//   .services-list-item {
+//     // &-1 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/c_scale,w_1582/v1643154327/staytonEngineering/ruben_ksq30n.jpg);
+//     // }
+//     // &-2 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067747/staytonEngineering/hmi_efyx9j.jpg);
+//     // }
+//     // &-3 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067738/staytonEngineering/eng_p58jyl.jpg);
+//     // }
+//     // &-4 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068046/staytonEngineering/panelBuild_pxz5ka.jpg);
+//     // }
+//     &-5 {
+//       background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643911964/staytonEngineering/comDebug1440_cspzx6.jpg);
+//     }
+//     // &-6 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068008/staytonEngineering/onSite_vov5er.jpg);
+//     // }
+//   }
+// }
+// @media (max-width: 1000px) {
+//   .services-list-item {
+//     // &-1 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/c_scale,w_1582/v1643154327/staytonEngineering/ruben_ksq30n.jpg);
+//     // }
+//     // &-2 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067747/staytonEngineering/hmi_efyx9j.jpg);
+//     // }
+//     // &-3 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067738/staytonEngineering/eng_p58jyl.jpg);
+//     // }
+//     // &-4 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068046/staytonEngineering/panelBuild_pxz5ka.jpg);
+//     // }
+//     &-5 {
+//       background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643911964/staytonEngineering/comDebug1000_lne3zz.jpg);
+//     }
+//     // &-6 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068008/staytonEngineering/onSite_vov5er.jpg);
+//     // }
+//   }
+// }
+// @media (max-width: 768px) {
+//   .services-list-item {
+//     // &-1 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/c_scale,w_1582/v1643154327/staytonEngineering/ruben_ksq30n.jpg);
+//     // }
+//     // &-2 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067747/staytonEngineering/hmi_efyx9j.jpg);
+//     // }
+//     // &-3 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067738/staytonEngineering/eng_p58jyl.jpg);
+//     // }
+//     // &-4 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068046/staytonEngineering/panelBuild_pxz5ka.jpg);
+//     // }
+//     &-5 {
+//       background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643911964/staytonEngineering/comDebug768_mamgmz.jpg);
+//     }
+//     // &-6 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068008/staytonEngineering/onSite_vov5er.jpg);
+//     // }
+//   }
+// }
+// @media (max-width: 500px) {
+//   .services-list-item {
+//     // &-1 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/c_scale,w_1582/v1643154327/staytonEngineering/ruben_ksq30n.jpg);
+//     // }
+//     // &-2 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067747/staytonEngineering/hmi_efyx9j.jpg);
+//     // }
+//     // &-3 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643067738/staytonEngineering/eng_p58jyl.jpg);
+//     // }
+//     // &-4 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068046/staytonEngineering/panelBuild_pxz5ka.jpg);
+//     // }
+//     &-5 {
+//       background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643911964/staytonEngineering/comDebug500_drlspi.jpg);
+//     }
+//     // &-6 {
+//     //   background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643068008/staytonEngineering/onSite_vov5er.jpg);
+//     // }
+//   }
+// }
