@@ -1,11 +1,14 @@
 import React from "react";
 import "../styles/services.scss";
+import Fade from "react-reveal/Fade";
 
 const Services = () => {
   return (
     <section className="services">
       <div className="services-header">
-        <h1>Our Services</h1>
+        <Fade bottom>
+          <h1>Our Services</h1>
+        </Fade>
       </div>
 
       <div className="services-list">

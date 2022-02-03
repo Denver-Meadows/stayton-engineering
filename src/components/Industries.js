@@ -6,7 +6,9 @@ const Industries = () => {
   return (
     <section className="industries">
       <div className="industries-header">
-        <h1>Industries</h1>
+        <Fade bottom>
+          <h1>Industries</h1>
+        </Fade>
       </div>
       <div className="industries-list">
         <div className="industries-list-1">

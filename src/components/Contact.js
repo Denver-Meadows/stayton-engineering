@@ -1,11 +1,14 @@
 import React from "react";
 import "../styles/contact.scss";
+import Fade from "react-reveal/Fade";
 
 const Contact = () => {
   return (
     <section className="contact">
       <div className="contact-header">
-        <h1>Contact Us</h1>
+        <Fade bottom>
+          <h1>Contact Us</h1>
+        </Fade>
       </div>
       <div className="contact-details">
         <h3>Questions & Estimates</h3>
