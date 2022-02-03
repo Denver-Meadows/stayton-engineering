@@ -98,3 +98,31 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .hero-header {
+    h2 {
+      font-size: 5rem;
+      margin-bottom: 2rem;
+      text-shadow: 3px 3px black;
+    }
+
+    h1 {
+      font-size: 4.7rem;
+      margin-bottom: 5rem;
+      text-shadow: 3px 3px black;
+    }
+    p {
+      font-size: 2.4rem;
+      width: 90%;
+      margin-bottom: 5rem;
+    }
+  }
+  .learn-more {
+    margin-top: 7rem;
+    padding: 1.2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
