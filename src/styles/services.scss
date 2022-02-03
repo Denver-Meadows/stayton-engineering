@@ -38,10 +38,10 @@
         background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643914170/staytonEngineering/design1920_hm99cf.jpg);
       }
       &-4 {
-        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643915809/staytonEngineering/panel1920_yszagn.jpg);
+        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643928596/staytonEngineering/panel1920_twt2ul.jpg);
       }
       &-5 {
-        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643915232/staytonEngineering/debug1920_egfx9i.jpg);
+        background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643911964/staytonEngineering/comDebug1920_krgtb1.jpg);
       }
       &-6 {
         background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643912797/staytonEngineering/onSite1920_hlnjwd.jpg);
@@ -57,6 +57,8 @@
 
 @media (max-width: 996px) {
   .services-list-item {
+    background-attachment: scroll;
+
     &-1 {
       background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643916937/staytonEngineering/plc1000_rdthwf.jpg);
     }
@@ -67,7 +69,7 @@
       background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643916937/staytonEngineering/design1000_k9ub1g.jpg);
     }
     &-4 {
-      background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643916937/staytonEngineering/panel1000_smgxen.jpg);
+      background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643928599/staytonEngineering/panel1000_mrp0y7.jpg);
     }
     &-5 {
       background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1643916937/staytonEngineering/debug1000_rvbsxd.jpg);
@@ -80,8 +82,6 @@
 
 @media (max-width: 768px) {
   .services-list-item {
-    background-attachment: scroll;
-
     h2 {
       font-size: 6rem;
     }
