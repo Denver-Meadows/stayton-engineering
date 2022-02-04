@@ -10,9 +10,7 @@ const Experience = () => {
   return (
     <section className="experience">
       <div className="experience-header">
-        <Fade bottom>
-          <h1>Experience</h1>
-        </Fade>
+        <h1>Experience</h1>
       </div>
       <div className="experience-list">
         {experienceData.map((experience, index) => {
