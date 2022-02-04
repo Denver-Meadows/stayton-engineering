@@ -7,8 +7,6 @@ import { AppContext } from "../context";
 const Experience = () => {
   const { width } = useContext(AppContext);
 
-  console.log(width < 996);
-
   return (
     <section className="experience">
       <div className="experience-header">
