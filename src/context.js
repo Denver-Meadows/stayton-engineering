@@ -15,9 +15,20 @@ const AppProvider = ({ children }) => {
     document.body.classList.add("overflow-visible");
   };
 
+  const width =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
+
   return (
     <AppContext.Provider
-      value={{ isSideNavOpen, setIsSideNavOpen, openSideNav, closeSideNav }}
+      value={{
+        isSideNavOpen,
+        setIsSideNavOpen,
+        openSideNav,
+        closeSideNav,
+        width,
+      }}
     >
       {children}
     </AppContext.Provider>
