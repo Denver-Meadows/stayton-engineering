@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/tagline.scss";
-import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 
 const Tagline = () => {

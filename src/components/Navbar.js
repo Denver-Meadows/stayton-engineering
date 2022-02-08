@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import "../styles/nav.scss";
 import { polyfill } from "seamless-scroll-polyfill";
 import { AppContext } from "../context";
-// import logo from "../imgs/SElogo.jpg";
 
 const Navbar = () => {
   const { openSideNav, isSideNavOpen, closeSideNav } = useContext(AppContext);
@@ -74,11 +73,6 @@ const Navbar = () => {
         <span></span>
         <span></span>
       </div>
-      {/* <div className="nav-toggle-btn">
-        <span className="hamburger"></span>
-        <span className="hamburger"></span>
-        <span className="hamburger"></span>
-      </div> */}
     </nav>
   );
 };

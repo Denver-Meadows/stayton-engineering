@@ -20,10 +20,6 @@ const SideNav = () => {
     closeSideNav();
   };
 
-  // const handleToggle = () => {
-  //   setActive(!isActive);
-  // };
-
   return (
     <aside
       className={`${
@@ -63,23 +59,6 @@ const SideNav = () => {
           </li>
         </ul>
       </div>
-      {/* <div
-        id="nav-toggle-btn"
-        className={isActive ? "open" : ""}
-        onClick={() => handleToggle()}
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div> */}
-      {/* <div className="nav-toggle-btn">
-        <span className="hamburger"></span>
-        <span className="hamburger"></span>
-        <span className="hamburger"></span>
-      </div> */}
     </aside>
   );
 };
