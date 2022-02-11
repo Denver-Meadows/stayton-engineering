@@ -2,6 +2,9 @@ import React, { useContext } from "react";
 import "../styles/nav.scss";
 import { polyfill } from "seamless-scroll-polyfill";
 import { AppContext } from "../context";
+import Logo800 from "../imgs/logos/SElogo-800.jpeg";
+import Logo500 from "../imgs/logos/SElogo-500.jpeg";
+import Logo250 from "../imgs/logos/SElogo-250.jpeg";
 
 const Navbar = () => {
   const { openSideNav, isSideNavOpen, closeSideNav } = useContext(AppContext);
@@ -29,7 +32,7 @@ const Navbar = () => {
         id="hero"
         onClick={(e) => handleClick(e.target.id)}
       >
-        Stayton Engineering
+        {/* <img src={Logo250} alt="" /> */}
       </div>
       <ul className="nav-list">
         <li

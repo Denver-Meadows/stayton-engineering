@@ -18,7 +18,13 @@
   animation: FadeIn 1.5s ease-in;
 
   &-logo {
-    font-family: Montez, "Open Sans", sans-serif;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1644600567/staytonEngineering/SElogo-250_gnym7q.jpg);
+    width: 25rem;
+    height: 6.5rem;
     margin-left: 7rem;
     font-size: 4rem;
     cursor: pointer;
