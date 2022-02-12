@@ -22,7 +22,7 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1644600567/staytonEngineering/SElogo-250_gnym7q.jpg);
+    background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1644686001/staytonEngineering/SElogo-800_qynby1.jpg);
     width: 25rem;
     height: 6.5rem;
     margin-left: 7rem;
@@ -226,6 +226,11 @@
 @media (max-width: 1000px) {
   #nav-toggle-btn {
     display: block;
+  }
+
+  .nav-logo {
+    width: 28rem;
+    background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1644686472/staytonEngineering/SElogo-500-cropped_vyx2og.jpg);
   }
 
   .nav-list {
