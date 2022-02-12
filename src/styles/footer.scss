@@ -5,6 +5,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  // align-items: center;
+
+  &-logo {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1644686001/staytonEngineering/SElogo-800_qynby1.jpg);
+    width: 25rem;
+    height: 6.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
 
   &-details {
     padding-top: 5rem;
@@ -21,11 +35,6 @@
     a:visited {
       color: var(--clr-primary-2);
     }
-
-    h5 {
-      font-size: 2rem;
-      margin-bottom: 2rem;
-    }
   }
 }
 
@@ -40,6 +49,13 @@
   a,
   a:visited {
     color: var(--clr-primary-2);
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer-logo {
+    width: 28rem;
+    background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1644686472/staytonEngineering/SElogo-500-cropped_vyx2og.jpg);
   }
 }
 
