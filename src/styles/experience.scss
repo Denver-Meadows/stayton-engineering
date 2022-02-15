@@ -17,14 +17,12 @@
     margin-bottom: 5rem;
     flex-wrap: wrap;
 
-    // will need to update this on smaller screens
     img {
       width: 20rem;
     }
   }
 }
 
-// remove margin-top unless at smaller screen size
 .img-container {
   display: flex;
   justify-content: center;

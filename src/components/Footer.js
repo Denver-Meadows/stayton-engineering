@@ -7,7 +7,6 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-details">
           <p className="footer-logo"></p>
-          {/* <h5>STAYTON ENGINEERING</h5> */}
           <p>3382 Garden Meadows Drive</p>
           <p className="footer-details-address">Greendale, IN 47025</p>
           <p className="footer-details-phone">
@@ -26,7 +25,7 @@ const Footer = () => {
           </p>
           <p className="footer-bottom-creator">
             CREATED BY{" "}
-            <a href="https://denvermeadows.co" target="_blank">
+            <a href="https://denvermeadows.co" target="_blank" rel="noreferrer">
               DENVER MEADOWS
             </a>
           </p>
