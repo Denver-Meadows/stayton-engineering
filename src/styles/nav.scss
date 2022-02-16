@@ -2,9 +2,9 @@
 // Navbar
 .nav {
   font-size: 2rem;
-  background-color: var(--clr-primary-1);
+  background-color: var(--clr-primary-2);
   opacity: 50;
-  color: var(--clr-primary-2);
+  color: var(--clr-primary-1);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,14 +24,14 @@
     background-repeat: no-repeat;
     background-image: url(https://res.cloudinary.com/dfsqn3oi6/image/upload/v1644686001/staytonEngineering/SElogo-800_qynby1.jpg);
     width: 25rem;
-    height: 6.5rem;
+    height: 6.6rem;
     margin-left: 7rem;
     font-size: 4rem;
     cursor: pointer;
 
     &:hover,
     &:active {
-      color: var(--clr-secondary-1);
+      color: var(--clr-primary-1);
     }
   }
 
@@ -45,13 +45,12 @@
       margin-right: 3rem;
       display: inline-block; // Needed so padding will and shifting right animation will work
       padding: 1rem 2rem;
-      // text-transform: uppercase;
       text-decoration: none;
       background-image: linear-gradient(
         120deg,
         transparent 0%,
         transparent 50%,
-        var(--clr-primary-2) 50%
+        var(--clr-primary-1) 50%
       );
       background-size: 235%; // Needed to make the below animation work.  Shifting the bg color for the animation.
       transition: all 0.5s;
@@ -60,7 +59,7 @@
       &:active {
         border-radius: 2px;
         background-position: 100%;
-        color: var(--clr-secondary-1);
+        color: var(--clr-primary-2);
         transform: translateX(1rem);
       }
     }
@@ -70,7 +69,7 @@
 .hamburger {
   height: 4px;
   width: 90%;
-  background-color: var(--clr-primary-2);
+  background-color: var(--clr-primary-1);
   border-radius: 10px;
 }
 
@@ -97,7 +96,7 @@
   position: absolute;
   height: 4px;
   width: 55%;
-  background-color: var(--clr-primary-2);
+  background-color: var(--clr-primary-1);
   opacity: 1;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
