@@ -8,9 +8,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `Dependencies`
 
-react
-react-reveal
-seamless-scroll-polyfill
+react </br>
+react-reveal </br>
+seamless-scroll-polyfill </br>
 
 ### `Languages`
 
